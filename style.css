@@ -59,3 +59,49 @@ body {
 p{
     color: white;
 }
+
+.about-section{
+    padding: 100px 50px;
+    background-color: black;
+    color: white;
+}
+
+.about-container{
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 0px 20px;
+}
+
+.about-text{
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-text h2{
+    font-size: 36px;
+    color: #e1b12c;
+    margin-bottom: 20px;
+}
+
+.about-text p{
+    line-height: 1.8;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.about-img {
+    flex: 1;
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed grey;
+    border-radius: 8px;
+    overflow: hidden;
+}
