@@ -209,3 +209,19 @@ p{
 .car-btn:hover {
     border-color: #e1b12c;
 }
+
+.main-footer{
+    background-color: black;
+    border-top: 1px solid gray;
+    padding: 30px 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.main-footer p {
+    color: #e1b12c;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0px;
+}
