@@ -77,6 +77,17 @@ body {
     letter-spacing: 5px;
 }
 
+.hero-content p {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 300%;
+        letter-spacing: 1.5px;
+        text-shadow: 0px 2px 4px rgba(255, 255, 255, 0.8);
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 10px 25px;
+        border-radius: 30px;
+    }
+
 p{
     color: white;
 }
@@ -224,4 +235,70 @@ p{
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 20px;
+        text-align: center;
+    }
+
+    .nav-links {
+        margin-left: 0;
+        padding: 0;
+        gap: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .about-section {
+        flex-direction: column-reverse;
+        gap: 30px;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .about-img {
+        width: 100%;
+        height: 300px;
+    }
+
+    
+    .gallery-container {
+        padding: 0 20px;
+        gap: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .car-card {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .car-img-box{
+        width: 100%;
+        height: 220px;
+        overflow: hidden;
+    }
+    
+    .car-box-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .section-title {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
 }
